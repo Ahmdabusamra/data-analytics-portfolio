@@ -1,5 +1,59 @@
-/Project1_SalesDataAnalysis
-├─ README.md
-├─ sales_data.csv
-├─ sales_analysis.sql
-├─ sales_analysis_report.pdf
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load sales data
+data = pd.read_csv('sales_data.csv')
+
+# Set plot style
+sns.set(style="whitegrid")
+
+# 1. Total Sales by Region
+plt.figure(figsize=(8,6))
+region_sales = data.groupby('region')['total_sale_value'].sum().sort_values(ascending=False)
+region_sales.plot(kind='bar', color='skyblue')
+plt.title('Total Sales by Region')
+plt.xlabel('Region')
+plt.ylabel('Total Sales ($)')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig('total_sales_by_region.png')
+plt.show()
+
+# 2. Top-Selling Products
+plt.figure(figsize=(8,6))
+product_sales = data.groupby('product_name')['quantity_sold'].sum().sort_values(ascending=False)
+product_sales.plot(kind='bar', color='salmon')
+plt.title('Top-Selling Products')
+plt.xlabel('Product Name')
+plt.ylabel('Quantity Sold')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig('top_selling_products.png')
+plt.show()
+
+# 3. Sales Trend Over Time (Monthly)
+data['date'] = pd.to_datetime(data['date'])
+data['month'] = data['date'].dt.to_period('M')
+monthly_sales = data.groupby('month')['total_sale_value'].sum()
+
+plt.figure(figsize=(8,6))
+monthly_sales.plot(kind='line', marker='o', color='green')
+plt.title('Sales Trend Over Time (Monthly)')
+plt.xlabel('Month')
+plt.ylabel('Total Sales ($)')
+plt.tight_layout()
+plt.savefig('sales_trend_over_time.png')
+plt.show()
+
+# 4. Average Sale Value per Region
+plt.figure(figsize=(8,6))
+avg_sales_region = data.groupby('region')['total_sale_value'].mean()
+avg_sales_region.plot(kind='bar', color='lightcoral')
+plt.title('Average Sale Value per Region')
+plt.xlabel('Region')
+plt.ylabel('Average Sale Value ($)')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig('average_sale_value_region.png')
+plt.show()
