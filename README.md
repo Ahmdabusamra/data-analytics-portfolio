@@ -1,38 +1,31 @@
 # Ahmed Abusamra - Data Analyst Portfolio
 
-Welcome to my GitHub portfolio! I am a seasoned **Data Analyst** with experience in market research, data analysis, and business intelligence. Below you'll find an overview of my career, skills, and certifications.
-
 ## About Me
 A data enthusiast passionate about deriving actionable insights from data to drive business success. With a proven track record in healthcare, telecom, and business intelligence sectors, I leverage data analytics to improve decision-making and optimize business operations.
 
-## Work Experience
+## Projects
 
-### **Data Support Specialist** | *Elections Ontario*  
-*Feb 2025 – May 2025*  
-- Streamlined election logistics by managing large datasets, ensuring compliance with regulations, and optimizing resource allocation across districts.
-- Monitored staffing KPIs using dashboards and optimized workforce scheduling for 100+ polling locations.
+### 1. [Sales Data Analysis with SQL](link)
+- **Tools**: SQL, MySQL
+- **Description**: Analyzed sales trends by region, product category, and time. Wrote complex SQL queries to calculate total sales, top-selling products, and identify patterns.
+- **Key Skills**: Data cleaning, SQL queries, Aggregation, JOINs.
 
-### **Senior Data Analyst** | *Kantar - Market Advisory Team*  
-*July 2023 – Jan 2025*  
-- Led research projects for clients in healthcare and telecom.
-- Developed algorithms using Python and SQL to uncover market trends, resulting in a 41% revenue increase.
-- Enhanced AstraZeneca’s COVID-19 recovery research, reducing analysis time by 30%.
+### 2. [Customer Segmentation in Python](link)
+- **Tools**: Python (Pandas, Scikit-learn)
+- **Description**: Performed clustering analysis on customer data using K-means to segment customers based on purchasing behavior. This helped the company target its marketing efforts more effectively.
+- **Key Skills**: Data preprocessing, machine learning, clustering, Python.
 
-### **Senior Data Analyst** | *Awe Research - Business Intelligence Team*  
-*April 2022 – July 2023*  
-- Analyzed customer segmentation for the telecom industry, contributing to increased profitability.
-- Led consumer research for a P&G product, boosting demand by 17%.
+### 3. [Customer Satisfaction Survey Analysis in SPSS](link)
+- **Tools**: SPSS
+- **Description**: Analyzed survey results using SPSS, including hypothesis testing (t-tests), correlation analysis, and data visualization. The project aimed to identify factors that drive customer satisfaction.
+- **Key Skills**: Statistical analysis, SPSS, hypothesis testing.
 
-## Key Skills & Certifications
-- **Technical Tools**: SPSS, Excel, Q Research Software, Power BI, Tableau, Python, SQL, NIPO ODIN Developer  
-- **Core Skills**: Market & Consumer Insights, Data Cleaning, Process Automation, Client Presentations, Stakeholder Strategy Development  
-- **Certifications**:  
-  - Finance & Quantitative Modeling for Analysts - Coursera (2022)  
-  - Google Data Analytics Professional Certificate - Coursera (2025)
+## Skills & Certifications
+- **Technical Skills**: SPSS, Excel, Power BI, Tableau, Python, SQL, NIPO ODIN Developer.
+- **Core Skills**: Market & Consumer Insights, Data Cleaning, Process Automation, Stakeholder Strategy Development.
+- **Certifications**:
+   - Finance & Quantitative Modeling for Analysts - Coursera (2022)
+   - Google Data Analytics Professional Certificate - Coursera (2025)
 
-## Education & Professional Affiliations
-**B.Sc. in Economics**  
-*Cairo University, Cairo, Egypt*  
-*Sept 2016 – May 2020*
-
+## Contact
 Feel free to visit my other projects or reach out for collaboration opportunities.
