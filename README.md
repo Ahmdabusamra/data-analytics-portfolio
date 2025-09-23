@@ -28,4 +28,5 @@ A data enthusiast passionate about deriving actionable insights from data to dri
    - Google Data Analytics Professional Certificate - Coursera (2025)
 
 ## Contact
-Feel free to visit my other projects or reach out for collaboration opportunities.
+Feel free to visit my other projects or reach out for collaboration opportunities though my Email: ahmdabusamra@gmail.com.
+
